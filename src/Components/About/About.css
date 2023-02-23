@@ -1,0 +1,31 @@
+
+
+.a-box{
+    padding: 10rem 0rem 10rem 0rem;
+    background-color: #1A22EA;
+}
+
+.img-wrapper{
+    height: 50rem;
+    width: 70%;
+    border: 15px solid #ffffff;
+    box-sizing: border-box;
+    margin-top: -20rem;
+    overflow: hidden;
+}
+
+.a-img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+
+@media (max-width:576px) {
+    
+    .a-box{
+        padding: 5rem 0rem 5rem 0rem;
+        /* background-color: #1A22EA; */
+    }
+
+}

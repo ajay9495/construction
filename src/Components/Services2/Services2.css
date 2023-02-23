@@ -1,0 +1,35 @@
+
+.s-wrapper{
+
+    /* background-color: #961919; */
+    background-image: url('../../images/servicesBg1.webp');
+    background-size: cover;
+    background-position: right top;
+    padding: 10rem 1rem 10rem 1rem;
+
+}
+
+
+.s-logo{
+    width: 3rem;
+    /* padding: 1rem 2rem 1rem 2rem; */
+    box-sizing: border-box;
+}
+
+
+@media (max-width:576px) {
+    
+    .s-wrapper{
+
+        /* background-color: #961919; */
+        /* background-image: url('../../images/servicesBg.png'); */
+        /* background-size: cover; */
+        /* background-position: right top; */
+
+        background-image:none;
+        background-color: #fff;
+        padding: 10rem 1rem 10rem 1rem;
+    
+    }
+
+}

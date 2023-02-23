@@ -1,0 +1,40 @@
+
+
+.s-txt-box{
+    padding: 5rem 5rem 5rem 5rem;
+    box-sizing: border-box;
+}
+
+
+.s-image{
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+
+
+
+
+
+.s-sub-box{
+    background-color: #4e17c5;
+    box-sizing: border-box;
+    margin-top: -2rem;
+    height: 15rem;
+}
+
+.s-sub-img{
+    height: 5rem;
+    width: 5rem;
+    background-color: #fff;
+    border-radius: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3rem;
+}
+
+.s-sub-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+}

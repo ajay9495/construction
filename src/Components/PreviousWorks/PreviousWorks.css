@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+.pw-box{
+    aspect-ratio: 1;
+    box-sizing: border-box;
+}
+
+.pw-square{
+    background-color: #afafaf;
+    width: 100%;
+    aspect-ratio: 1;
+    /* background-image: url('../../images/office.jpg');
+    object-fit: scale-down; */
+    overflow: hidden;
+}
+
+.pw-img-overlay{
+    /* background-color: #00000030;   */
+    background: linear-gradient(
+        to top,
+        #0009,
+        transparent
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.pw-img-overlay:hover{
+    background-color: #0003;  
+}
+
+.pw-image{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.pw-horizontal{
+    background-color: #afafaf;
+    width: 100%;
+    aspect-ratio: 2/1;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.pw-vertical{
+    background-color: #afafaf;
+    width: 100%;
+    height: 100%;
+    /* min-height: 98.5%; */
+    aspect-ratio: 1/2;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+
+#pw-img-wrapper1{
+    /* background-color: #d71616; */
+    background-image: url('../../images/PrevSq1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#pw-img-wrapper2{
+    background-image: url('../../images/PrevSq2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#pw-img-wrapper3{
+    background-image: url('../../images/Prevh.png');
+    background-position: center;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+#pw-img-wrapper4{
+    background-image: url('../../images/PrevSq3.png');
+    background-position: center;
+    background-size: cover;}
+
+#pw-img-wrapper5{
+    background-image: url('../../images/PrevSq4.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#pw-img-wrapper6{
+    background-image: url('../../images/Prevh2.png');
+    background-position: center;
+    background-size: cover;}
+
+
+
